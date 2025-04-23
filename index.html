@@ -3,121 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-6.css">
   <title>Home</title>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <h1>Museums list in Canada</h1>
+    <nav class="headerlist">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   <!-- TODO: make List -->
   <main>
-    <section>
-      <h1>Museums list in Canada</h1>
-      <img src="./images/heroimg.jpg" alt="heroimg" width="1500">
-      <h1>About</h1>
-        <p>This website introduces the top 10 ranked museums in Canada. <br>
-          From art galleries to history and science museums, you can discover the best places to learn about Canadian culture, history, and creativity. Explore these popular museums and find your next destination in Canada!</p>
-      <!-- introduce each museums in article -->
-          <ol>
-            <li>
-              <article>
-              <h2>Royal Ontario Museum</h2>
-              <img src="./images/img_1_ROM.jpg" alt="img_1_ROM" width="800">
-              <br>
+    <section class="article-museums">
+    <!-- introduce each museums in article -->
+      <ol>
+        <li>
+          <article>
+          <div class="discription">
+            <h2>Royal Ontario Museum</h2>
+            <p>Located in Toronto, this is the largest museum of world cultures and natural history in Canada.
               <a href="https://www.rom.on.ca/">Royal Ontario Museum website</a>
-              <p>Located in Toronto, this is the largest museum of world cultures and natural history in Canada.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>Canadian Museum of History</h2>
-              <img src="./images/img_2.jpg" alt="img_2" width="800">
-              <br>
-              <a href="https://www.historymuseum.ca/plan-your-visit">Canadian Museum of History website</a>
-              <p>One of the most visited museums in Canada, located in Gatineau, Quebec, exploring the nation's history and heritage.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>Montreal Museum of Fine Arts</h2>
-              <img src="./images/img_3.jpg" alt="img_3" width="800">
-              <br>
-              <a href="https://www.mbam.qc.ca/en/">Montreal Museum of Fine Arts website</a>
-              <p>A major art museum in Montreal with a vast collection of artworks and exhibitions.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>Royal BC Museum</h2>
-              <img src="./images/img_4.jpg" alt="img_4" width="800">
-              <br>
-              <a href="https://www.royalbcmuseum.bc.ca/">Royal BC Museum website</a>
-              <p>Located in Victoria, BC, this museum features natural and human history exhibits of the region.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>Art Gallery of Ontario</h2>
-              <img src="./images/img_5.jpg" alt="img_5" width="800">
-              <br>
-              <a href="https://ago.ca/">Art Gallery of Ontario website</a>
-              <p>One of North America's largest art museums, with over 90,000 works in Toronto.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>Canadian Museum for Human Rights</h2>
-              <img src="./images/img_6.jpg" alt="img_6" width="800">
-              <br>
-              <a href=https://humanrights.ca/">Canadian Museum for Human Rights website</a>
-              <p>Located in Winnipeg, this museum is dedicated to the evolution, celebration, and future of human rights.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>Royal Tyrrell Museum</h2>
-              <img src="./images/img_7.jpg" alt="img_7" width="800">
-              <br>
-              <a href="https://www.tyrrellmuseum.com/">Royal Tyrrell Museum website</a>
-              <p>Famous for its dinosaur fossils and paleontology exhibits, located in Drumheller, Alberta.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>UBC Museum of Anthropology</h2>
-              <img src="./images/img_8.jpg" alt="img_8" width="800">
-              <br>
-              <a href="https://moa.ubc.ca/">UBC Museum of Anthropology website</a>
-              <p>Located in Vancouver, this museum is renowned for its First Nations art and artifacts.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>Manitoba Museum</h2>
-              <img src="./images/img_9.jpg" alt="img_9" width="800">
-              <br>
-              <a href="https://manitobamuseum.ca/">Manitoba Museum website</a>
-              <p>The largest museum in Winnipeg, featuring natural and human history exhibits.</p>
-              </article>
-            </li>
-            <li>
-              <article>
-              <h2>Canadian War Museum</h2>
-              <img src="./images/img_10.jpg" alt="img_10" width="800">
-              <br>
-              <a href="https://www.warmuseum.ca/">Canadian War Museum website</a>
-              <p>Located in Ottawa, this museum focuses on Canada's military history and heritage.</p>
-              </article>
-            </li>
-          </ol>
+            </p>
+          </div>
+          <img src="./images/img_1_ROM.jpg" alt="img_1_ROM">
+          <img src="./images/heroimg.jpg" alt="heroimg">
+          <img src="./images/img_1_ROM.jpg" alt="img_1_ROM">
+          </article>
+        </li>
+      </ol>
+    </section>
+    <section class="sidemenu">
+      <h2 id="sidebar">Projects</h2>
+      <ul class="footerlist">
+        <li>April 2025</li>
+        <li>March 2025</li>
+        <li>February 2025</li>
+        <li>January 2025</li>
+      </ul>
     </section>
   </main>
   <footer>
-    <p>&copy; Museums list in Canada | <a href="Privacy Policy">Privacy Policy</a></p>
+    <br>
+    <br>
+    <p>&copy; Museums list in Canada | <a href="">Privacy Policy</a></p>
   </footer>
 </body>
 </html>
